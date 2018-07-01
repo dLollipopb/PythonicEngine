@@ -1,0 +1,9 @@
+varying vec3 n;
+varying vec3 v;
+void main()
+{
+	n = gl_NormalMatrix * gl_Normal;
+	gl_Position = gl_ModelViewProjectionMatrix * gl_Vertex;
+	gl_TexCoord[0] = gl_MultiTexCoord0;
+	v = vec3(gl_ModelViewMatrix * gl_Vertex);
+}
