@@ -1,0 +1,12 @@
+name light
+vertex lightv.shad
+fragment lightf.shad
+
+name light2
+vertex lightv.shad
+fragment lightf2.shad
+
+name red
+vertex defaultv.shad
+fragment redf.shad
+
