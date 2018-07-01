@@ -1,0 +1,9 @@
+name cube
+mesh cube.obj
+shader light2
+
+name monster
+texture monster.jpg smooth
+mesh sphere.obj
+shader light
+
